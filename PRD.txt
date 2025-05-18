@@ -1,0 +1,145 @@
+# 📄 Product Requirements Document (PRD)
+
+## 🧾 Project Title
+
+**Eliutherius Juma – Developer Portfolio**
+
+---
+
+## 1. 🚀 Overview
+
+This is a modern, responsive personal developer portfolio built using **Next.js** and **Tailwind CSS**. The portfolio highlights Eliutherius Juma’s professional experience, technical expertise, past projects, and contact information. It will be deployed on **DigitalOcean** and optimized for performance, SEO, and responsiveness.
+
+---
+
+## 2. 🎯 Objectives
+
+* Showcase career achievements, roles, and technical stack.
+* Present projects in a clean and navigable manner.
+* Enable potential employers, collaborators, or clients to reach out.
+* Build personal branding online via a professional, fast-loading, elegant website.
+
+---
+
+## 3. 📌 Key Features
+
+### 3.1 Hero Section
+
+* Full name, title (“Experienced Full Stack Developer”)
+* Short summary/introduction
+* Call-to-action buttons: "View Resume", "Contact Me", "LinkedIn"
+
+### 3.2 About Section
+
+* Detailed professional summary
+* Profile image (optional)
+* Key values, philosophy or approach to development
+
+### 3.3 Experience Timeline
+
+* Chronological display of roles
+* Company name, position, timeline
+* Bullet-point accomplishments/impact
+* Tech stack used per role
+
+### 3.4 Projects Section
+
+* List of major projects with:
+
+  * Title
+  * Role
+  * Short description
+  * Technologies used
+  * Link to GitHub or live demo
+
+### 3.5 Skills Section
+
+* Grid or badges showing:
+
+  * Languages (JS, TS, Java, etc.)
+  * Frameworks (React, Next.js, Express)
+  * Tools (Docker, CI/CD, Git)
+  * Soft skills
+
+### 3.6 Education Section
+
+* Degree, Institution, Dates
+* Diploma & other certifications
+
+### 3.7 Contact Section
+
+* Email
+* Phone number
+* LinkedIn profile
+* Contact form (optional)
+
+### 3.8 Footer
+
+* Minimal footer with links to sections and social icons
+
+---
+
+## 4. 🧱 Tech Stack
+
+| Layer                | Technology                     |
+| -------------------- | ------------------------------ |
+| Frontend             | Next.js (App Router)           |
+| Styling              | Tailwind CSS                   |
+| Hosting              | DigitalOcean (App Platform)    |
+| CI/CD (optional)     | GitHub Actions or DO Pipelines |
+| SEO                  | Next Head tags, Open Graph     |
+| Analytics (optional) | Plausible or Google Analytics  |
+
+---
+
+## 5. 📐 Design & UX
+
+* Mobile-first responsive design
+* Smooth transitions and hover animations
+* Modern, minimalist aesthetic
+* Use of Tailwind CSS for utility-first styling
+* Dark/Light mode toggle (optional)
+
+---
+
+## 6. 🔄 Data Structure
+
+* `/data/experience.js` – Array of job experiences
+* `/data/projects.js` – Array of project objects
+* `/data/skills.js` – Array of grouped skills
+* `/data/education.js` – Academic background
+
+---
+
+## 7. 🧪 Functional Requirements
+
+| Feature           | Requirements                                                  |
+| ----------------- | ------------------------------------------------------------- |
+| Responsive Layout | Must work seamlessly across mobile, tablet, and desktop       |
+| Accessibility     | Semantic HTML, focus states, ARIA labels where needed         |
+| Routing           | Static routing with Next.js (Home, Projects, Resume)          |
+| Performance       | Lighthouse score ≥ 90                                         |
+| SEO               | Descriptive title tags, meta tags, social preview (OpenGraph) |
+| External Links    | Open GitHub, LinkedIn, Email in new tabs                      |
+| Contact Form      | (Optional) With simple validation and email trigger           |
+
+---
+
+## 8. ⚙️ Non-Functional Requirements
+
+* **Performance**: Fast initial load, image optimization
+* **Maintainability**: Component-based structure, modular styles
+* **Scalability**: Easy to add new projects or update content
+* **Security**: Avoid exposing sensitive data; email spam protection (if form included)
+
+---
+
+## 9. 🎯 Success Metrics
+
+* Portfolio is publicly accessible at a custom domain (e.g., elijuma.dev)
+* Loads under 2 seconds on 3G
+* Displays correctly on Chrome, Firefox, Safari, Edge
+* Contains 100% of CV information in well-organized UI
+* Receives at least 3–5 leads or compliments within first month
+
+---
