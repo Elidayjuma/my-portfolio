@@ -32,9 +32,22 @@ export const experiences: Experience[] = [
     ],
   },
   {
+  company: "Paylend Limited",
+  position: "CEO & Co-Founder",
+  period: "January 2021 – September 2023",
+  responsibilities: [
+    "Led the strategic direction of Paylend, a fintech platform that provided MSMEs with access to digital payments, lending, and business tools.",
+    "Fundraising & Investor Relations: Secured $500K in funding, engaging investors, venture capital firms, and impact funds.",
+    "Revenue Growth & Financial Management: Increased company revenue by 20% in three months through strategic B2B partnerships and a data-driven lending model.",
+    "Business Expansion & Market Entry Strategy: Expanded operations across Kenya, positioning Paylend as a leader in MSME financial solutions.",
+    "Stakeholder & Partnership Management: Built strategic alliances with banks, payment providers, and regulatory bodies, ensuring compliance and product adoption.",
+    "Team Leadership & Organizational Growth: Scaled the team to 20+ employees, fostering a culture of innovation and high performance.",
+  ],
+},
+  {
     company: "Paylend Limited",
     position: "CTO",
-    period: "January 2021 – September 2023",
+    period: "January 2021 – December 2021",
     responsibilities: [
       "Helped the company get regulatory approvals.",
       "Trimmed the tech budget by 15% while maintaining efficiency.",

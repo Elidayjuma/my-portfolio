@@ -9,4 +9,5 @@ export const menuItems: MenuItem[] = [
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
+  { label: "Blog", href: "https://elidayjuma.com/blog" },
 ];
