@@ -35,6 +35,7 @@ export default function Hero() {
                     height={350}
                     className="rounded-full shadow-lg object-cover"
                     priority
+                    unoptimized
                 />
             </div>
         </section>
