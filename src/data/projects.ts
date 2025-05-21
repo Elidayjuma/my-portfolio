@@ -8,6 +8,22 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+  title: "LifeGuage",
+  techStack: [
+    "Next.js", "Tailwind CSS", "TypeScript"
+  ],
+  problem: "People often lack awareness of how their lifestyle choices and country-specific factors impact their life expectancy.",
+  solution: "A lightweight and responsive web app that estimates a person's life expectancy using global health data, country baselines, and lifestyle-based adjustments.",
+  how: [
+    "Aggregates global and country-specific life expectancy data from sources like WHO, UN, and World Bank.",
+    "Collects user lifestyle inputs (exercise, smoking, diet, sleep, etc.) via a simple form.",
+    "Applies weighted modifiers to the base expectancy based on peer-reviewed health research.",
+    "Displays a personalized life expectancy estimate and visual breakdown using charts.",
+    "Educates users on how different habits can impact longevity and encourages healthier choices."
+  ],
+  link: "https://lifeguage.elidayjuma.com"
+},
    {
     title: "TweetGenius",
     techStack: [

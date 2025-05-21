@@ -3,6 +3,7 @@ import ExperienceTimeline from "@/components/experience";
 import SkillsGrid from "@/components/skills";
 import Education from "@/components/education";
 import Hero from "@/components/Hero";
+import GithubStats from "@/components/GithubStats";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <ProjectsList />
         <ExperienceTimeline />
         <SkillsGrid />
+        <GithubStats />
         <Education />
 
       </main>
